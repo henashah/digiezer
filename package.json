@@ -1,12 +1,14 @@
 {
   "name": "digiezer",
   "version": "1.0.0",
+  "private": true,
   "type": "module",
   "scripts": {
-    "start": "node server.mjs",
-    "dev": "node --watch server.mjs"
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
-  "engines": {
-    "node": ">=18.x"
+  "devDependencies": {
+    "vite": "^5.4.0"
   }
 }
